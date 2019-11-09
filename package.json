@@ -1,0 +1,24 @@
+{
+  "name": "sslintegration",
+  "version": "1.0.0",
+  "description": "ssl commz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TowhidAust/sslIntegration.git"
+  },
+  "author": "towhid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TowhidAust/sslIntegration/issues"
+  },
+  "homepage": "https://github.com/TowhidAust/sslIntegration#readme",
+  "dependencies": {
+    "sslcommerz": "^1.0.4",
+    "sslcommerz-nodejs": "^1.0.6",
+    "uniq": "^1.0.1"
+  }
+}
