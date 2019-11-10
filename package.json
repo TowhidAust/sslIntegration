@@ -4,7 +4,8 @@
   "description": "ssl commz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/TowhidAust/sslIntegration#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
     "sslcommerz": "^1.0.4",
     "sslcommerz-nodejs": "^1.0.6",
     "uniq": "^1.0.1"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "keywords": []
 }
